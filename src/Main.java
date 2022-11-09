@@ -1,5 +1,10 @@
+import multiplication.MultiplicationTable;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        MultiplicationTable multiplicationTable = new MultiplicationTable();
+        System.out.println(multiplicationTable);
+
     }
 }
