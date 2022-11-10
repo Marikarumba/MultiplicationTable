@@ -7,7 +7,7 @@ public class Task {
     private  int a;
     private  int b;
 
-    public Task(int a, int i) {
+    public Task(int a, int b) {
         this.a = a;
         this.b = b;
     }
@@ -35,6 +35,6 @@ public class Task {
 
     @Override
     public String toString() {
-        return String.format(a + " * " + b + " = ");
+        return String.format  ("\n" + a + " * " + b + " = ?");
     }
 }
